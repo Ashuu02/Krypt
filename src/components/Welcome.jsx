@@ -27,13 +27,12 @@ const Input = ({ placeholder, name, type, value, handleChange }) => {
 };
 
 export default function Welcome() {
-  const { connectWallet, currentAccount,formData, sendTransaction, handleChange, isLoading } = useContext(TransactionContext);
+  const { currentAccount, connectWallet, handleChange, sendTransaction, formData, isLoading } = useContext(TransactionContext);
   // console.log(value);
 
   const handleSubmit = (e) => {
-    
+    e.preventDefault();    
     const{addressTo, amount, keyword,  message} = formData;
-    e.preventDefault();
 
     if(!addressTo || !amount || !keyword || !message)  return
 
@@ -116,17 +115,17 @@ export default function Welcome() {
               handleChange={handleChange}
               />
             <div className="h-[1px] w-full bg-gray-400 my-2" />
-            {isLoading ? (
-              <Loader />
-            ) : (
-              <button
-                className="text-white w-full mt-2 border-[1px] p-2 border-[#3d4f7c] rounded-full cursor-pointer"
-                type="button"
-                onClick={handleSubmit}
-              >
-                Send Now
-              </button>
-            )}
+            {isLoading
+              ? <Loader />
+              : (
+                <button
+                  type="button"
+                  onClick={handleSubmit}
+                  className="text-white w-full mt-2 border-[1px] p-2 border-[#3d4f7c] hover:bg-[#3d4f7c] rounded-full cursor-pointer"
+                >
+                  Send now
+                </button>
+              )}
           </div>
         </div>
       </div>
