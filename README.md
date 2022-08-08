@@ -10,9 +10,9 @@
 
 
 </br>
-📌This was my first project using **_Solidity_**. 🤩 </br>
-📍Solidity language is used to write _**Smart Contracts**_ which are later deployed on the different blockchain networks.(here i've used **_Goerli Test Network_** over **Alchemy** platform). </br>
-📌I applied styling using **_tailwind-css_** for this app. </br>
+📌This was my first project using ***Solidity***. 🤩 </br>
+📍Solidity language is used to write ***Smart Contracts*** which are later deployed on the different blockchain networks.(here i've used ***Goerli Test Network*** over ***Alchemy*** platform). </br>
+📌I applied styling using ***tailwind-css*** for this app. </br>
 📍Tailwind provides us with off-the-peg css classes directly and makes the project styling trouble-free. Although i had some issue with Responsiveness of the site in the beginning, later it was resolved.  </br>
 📌I used **Remix IDE** to create my ContractABI and ContractAdress.
 <br>
@@ -23,4 +23,4 @@
 📍After a successful transfer of crypto is made it will render the transaction details at the bottom of the page along with a Gif related to the **message** you passed. Isn't that interesting!!👻  </br>
 </br>
 
-Do star⭐ the Repo if you liked my project.😉
+Do **star**⭐ the Repo if you liked my project.😉
