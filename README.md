@@ -1,6 +1,6 @@
 # Krypt
 
-###Hello folks!! </br>
+##Hello folks!! </br>
 I have created a my first ever **Decentralized Web3 App**. </br>
 The app is **_Krypt_**....It's a Crypto Wallet. </br>
 It transfers Cryto amount (test or real time) over other addresses anywhere in the world. </br>
