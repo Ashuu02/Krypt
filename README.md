@@ -6,10 +6,7 @@
 🎯It's a **Crypto Wallet**- An individual can make secure transactions using the app. All he/she needs is address of the receiver and a personal metamask account. </br>
 🎯It's a **Decentralized App**(DApp) - The wallet is not controlled by any particular organization or government. It is transaparent, secure and reliable.</br>
 🎯Krypt is completely **responsive** and is built using **React** libraby of JS.</br>
-🎯It transfers **Ethereum** (test/real time) over other addresses anywhere in the world. </br> 
-
-
-</br>
+🎯It transfers **Ethereum** (test/real time) over other addresses anywhere in the world. </br> </br>
 📌This was my first project using **Solidity**. 🤩 </br>
 📍Solidity language is used to write ***Smart Contracts*** which are later deployed on the different blockchain networks.(here i've used ***Goerli Test Network*** over ***Alchemy*** platform). </br>
 📌I applied styling using ***tailwind-css*** for this app. </br>
