@@ -18,8 +18,7 @@
 ....Here's the link to video to watch transactions happening through the app.  </br> 
 📌I've used **_Giphy Developers API_** to produce the Gif. 🚀</br>
 📍After a successful transfer of crypto is made it will render the transaction details at the bottom of the page along with a Gif related to the **message** you passed. Isn't that interesting!!👻  </br>
-</br>
-
-PS : Reaload the site after transaction to see your Gif msg
+</br>**
+PS : Reload the site after transaction to see your Gif msg**
 
 Do **star**⭐ the Repo if you liked my project.😉
