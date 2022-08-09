@@ -20,4 +20,6 @@
 📍After a successful transfer of crypto is made it will render the transaction details at the bottom of the page along with a Gif related to the **message** you passed. Isn't that interesting!!👻  </br>
 </br>
 
+PS : Reaload the site after transaction to see your Gif msg
+
 Do **star**⭐ the Repo if you liked my project.😉
